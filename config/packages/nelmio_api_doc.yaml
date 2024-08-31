@@ -1,0 +1,11 @@
+nelmio_api_doc:
+    areas:
+        default:
+            path_patterns:
+                - ^(?!/(doc\/?.*?|_error\/.+)$)
+    documentation:
+        info:
+            title: My App
+            description: This is an awesome app!
+            version: 1.0.0
+   
